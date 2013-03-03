@@ -1,0 +1,88 @@
+int time  = 100;
+void setup()
+{
+  pinMode(13, OUTPUT);
+  pinMode(12, OUTPUT);
+  pinMode(11, OUTPUT);
+  pinMode(10, OUTPUT);
+  pinMode(9, OUTPUT);
+  pinMode(8, OUTPUT);
+  pinMode(7, OUTPUT);
+  pinMode(6, OUTPUT);
+  pinMode(5, OUTPUT);
+  pinMode(4, OUTPUT);
+  pinMode(3, OUTPUT);
+  pinMode(2, OUTPUT);
+  pinMode(A0, OUTPUT);
+  pinMode(A1, OUTPUT);
+  pinMode(A2, OUTPUT);
+  pinMode(A3, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(13, HIGH);
+  delay(time);
+  digitalWrite(13, LOW);
+  delay(time);
+  digitalWrite(12, HIGH);
+  delay(time);
+  digitalWrite(12, LOW);
+  delay(time);
+  digitalWrite(11, HIGH);
+  delay(time);
+  digitalWrite(11, LOW);
+  delay(time);
+  digitalWrite(10, HIGH);
+  delay(time);
+  digitalWrite(10, LOW);
+  delay(time);
+  digitalWrite(9, HIGH);
+  delay(time);
+  digitalWrite(9, LOW);
+  delay(time);
+  digitalWrite(8, HIGH);
+  delay(time);
+  digitalWrite(8, LOW);
+  delay(time);
+  digitalWrite(7, HIGH);
+  delay(time);
+  digitalWrite(7, LOW);
+  delay(time);
+  digitalWrite(6, HIGH);
+  delay(time);
+  digitalWrite(6, LOW);
+  delay(time);
+  digitalWrite(5, HIGH);
+  delay(time);
+  digitalWrite(5, LOW);
+  delay(time);
+  digitalWrite(4, HIGH);
+  delay(time);
+  digitalWrite(4, LOW);
+  delay(time);
+  digitalWrite(3, HIGH);
+  delay(time);
+  digitalWrite(3, LOW);
+  delay(time);
+  digitalWrite(2, HIGH);
+  delay(time);
+  digitalWrite(2, LOW);
+  delay(time);
+  digitalWrite(A0, HIGH);
+  delay(time);
+  digitalWrite(A0, LOW);
+  delay(time);
+  digitalWrite(A1, HIGH);
+  delay(time);
+  digitalWrite(A1, LOW);
+  delay(time);
+  digitalWrite(A2, HIGH);
+  delay(time);
+  digitalWrite(A2, LOW);
+  delay(time);
+  digitalWrite(A3, HIGH);
+  delay(time);
+  digitalWrite(A3, LOW);
+  delay(time);
+}
